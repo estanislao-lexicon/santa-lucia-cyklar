@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/santa-lucia-cyklar/static/css/main.f855e6bc.css",
+    "main.js": "/santa-lucia-cyklar/static/js/main.29c93003.js",
+    "static/js/453.17e5f5e5.chunk.js": "/santa-lucia-cyklar/static/js/453.17e5f5e5.chunk.js",
+    "static/media/logo.svg": "/santa-lucia-cyklar/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/santa-lucia-cyklar/index.html",
+    "main.f855e6bc.css.map": "/santa-lucia-cyklar/static/css/main.f855e6bc.css.map",
+    "main.29c93003.js.map": "/santa-lucia-cyklar/static/js/main.29c93003.js.map",
+    "453.17e5f5e5.chunk.js.map": "/santa-lucia-cyklar/static/js/453.17e5f5e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.29c93003.js"
+  ]
+}
