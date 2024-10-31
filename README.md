@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+The client Santa Lucia Cyklar has a bike shop on Instagram where he sells cargo bikes and restored bikes. He is interested in having a website to have a more formal presence on the web, where he can customize how he presents the information to his clients.
+After some conversations via email, he has decided to start with a small website to see how his consumers react having a website, before committing to a more expensive e-commerce site (that would require backend coding) 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Specifications requested by the client
 
-In the project directory, you can run:
+- [ ] The site must work on phones and also computers.
+- [X] Must have min. 4 pages: Home page, About page, Products page,Contact page.
+- [X] The Product page must be divided into Cupcakes and Wedding cakes.
+- [ ] There must be at least 8 Cupcakes on the Product page.
+- [ ] There must be at least 8 Wedding cakes on the Product page.
+- [ ] Each product must have a picture, a title and a price.
+- [X] The header must have a link for each of the 4 pages.
+- [X] The footer must have links to Instagram and Facebook.
+- [ ] The footer also must have a link to contact her via email (redacted)
+- [X] The header and footer must be the same across the 4 pages.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Optional tasks
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+These are extra task and is not required to complete the project.
+1. The client wants a contact form that sends an email (redacted).
+2. The client wants her users subscribing to a email list, so is requesting to create a section in the Home page or inside the footer.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Hints for the project
 
-### `npm run build`
+1. You can use any logotype for the project or use the official one.
+2. You can use her color scheme or invent one using https://coolors.co
+3. You can use any cupcake or bakery social media accounts for the links in the footer. In case you want to use the official ones these are the links: Instagram and Facebook.
+4. For the text information on the web-page you can pick one of the 2 options:
+	1. Copy it any other bakery website.
+	2. Use the information in the annex on the last page of this document. (Google translated from Spanish, feel free to correct any grammar mistakes)
+5. For the products, you can browse her Instagram account for pictures or search any from unplash.com. For the title and prices just write anything.
+6. Use Google Fonts to obtain nice fonts.
+7. Don’t use emojis. They work for Instagram post and nerdy HTML exercises but they don’t professional on a website.
+8. For the extra tasks, you can look at how to integrate readily to use solutions like the ones provided in Mailchimp (free, but requires creating an account)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### About mobile menus
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You don’t need to implement a special mobile menu.
 
-### `npm run eject`
+❌ You don’t need to implement a hamburger menu button. (3 lines icon) Because they either need JavaScript or more practice CSS for more hours 
+you currently have.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+✅ For this project you can get by putting the menu links like the picture above. You can choose any other way to display the links.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Annex
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**HOME PAGE TEXT**
+Hi! Welcome to Munamii Cakery! We offer you the most delicious cakes and cupcakes for all kinds of events and celebrations. Browse around to discover what you would like to buy.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**ABOUT PAGE TEXT**
+At Munamii Cakery, each cake, each box of cupcakes that we make has a very special value for us. We not only want to bring a dessert to your table but rather a unique experience for you, which will become an unforgettable memory. We have been in the pastry market for more than 8 years and now we offer you a new way to shop through our website.
 
-## Learn More
+**PRODUCTS PAGE TEXT**
+No text provided, just show the products organised by category.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**CONTACT PAGE**
+Home delivery service: All the city of Stockholm (redacted) and Malmö (redacted) with additional cost.
+Place to pick up order: Via la Costa Avenue. Blue Port gated neighborhood. We will send you the GPS Location via WhatsApp.
+Orders must be placed 2 days before for greater security, processing and availability.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Tuesday to Saturday
+9 a.m. at 2 p.m.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Disclaimers
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. I have personal permission for the store owner to use her company name, logotype and product images for learning purposes.
+2. This is not spec work (work done for free in hopes to get elected from a pool of contestant and only 1 get paid)

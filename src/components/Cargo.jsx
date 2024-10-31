@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 function Cargo() {
   return (
@@ -10,6 +9,7 @@ function Cargo() {
           All bikes are available for testing in our shop. <br /><b>All purchases are made in store.</b></p>
       </div>
       
+      {/* BABBOE */}
       <h3 className="text-3xl font-bold text-dark-text flex items-center justify-center mt-10">Babboe</h3>
       <div className="container grid grid-cols-4 items-center p-4">        
     
@@ -34,6 +34,7 @@ function Cargo() {
         </div>
       </div>
 
+      {/* BULLIT */}
       <h3 className="text-3xl font-bold text-dark-text flex items-center justify-center mt-10">Bullit</h3>
       <div className="container grid grid-cols-4 items-center p-4">        
     
@@ -80,6 +81,7 @@ function Cargo() {
         </div>
       </div>
 
+      {/* CARGOBIKE */}
       <h3 className="text-3xl font-bold text-dark-text flex items-center justify-center mt-10">Cargobike</h3>
       <div className="container grid grid-cols-4 items-center p-4">        
     
@@ -104,6 +106,7 @@ function Cargo() {
         </div>
       </div>
 
+      {/* MULI */}
       <h3 className="text-3xl font-bold text-dark-text flex items-center justify-center mt-10">Muli</h3>
       <div className="container grid grid-cols-4 items-center p-4">        
     
@@ -125,7 +128,6 @@ function Cargo() {
       </div>
 
     </div>
-
   );
 }
 
