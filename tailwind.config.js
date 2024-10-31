@@ -50,7 +50,8 @@ module.exports = {
       safelist: [
         'fa',
         'fa-facebook',
-        'fa-instagram',        
+        'fa-instagram',
+        'fa-envelope',        
       ],
     },
   },

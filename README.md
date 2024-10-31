@@ -5,31 +5,31 @@ After some conversations via email, he has decided to start with a small website
 ### Specifications requested by the client
 
 - [ ] The site must work on phones and also computers.
-- [X] Must have min. 4 pages: Home page, About page, Products page,Contact page.
-- [X] The Product page must be divided into Cupcakes and Wedding cakes.
-- [ ] There must be at least 8 Cupcakes on the Product page.
-- [ ] There must be at least 8 Wedding cakes on the Product page.
+- [X] Must have min. 4 pages: Home page, About page, Products page, Contact page.
+- [X] The Product page must be divided into Cargo bikes and Restored bikes.
+- [X] There must be at least 8 cargo bikes on the Cargo page.
+- [X] There must be at least 8 bicykles on the Restored bikes page.
 - [ ] Each product must have a picture, a title and a price.
 - [X] The header must have a link for each of the 4 pages.
 - [X] The footer must have links to Instagram and Facebook.
-- [ ] The footer also must have a link to contact her via email (redacted)
+- [X] The footer also must have a link to contact her via email (redacted)
 - [X] The header and footer must be the same across the 4 pages.
 
 
 ### Optional tasks
 
 These are extra task and is not required to complete the project.
-1. The client wants a contact form that sends an email (redacted).
-2. The client wants her users subscribing to a email list, so is requesting to create a section in the Home page or inside the footer.
+- [X] The client wants a contact form that sends an email (redacted).
+- [ ] The client wants her users subscribing to a email list, so is requesting to create a section in the Home page or inside the footer.
 
 
 ### Hints for the project
 
 1. You can use any logotype for the project or use the official one.
 2. You can use her color scheme or invent one using https://coolors.co
-3. You can use any cupcake or bakery social media accounts for the links in the footer. In case you want to use the official ones these are the links: Instagram and Facebook.
+3. You can use any bike or bicicle store social media accounts for the links in the footer. In case you want to use the official ones these are the links: Instagram and Facebook.
 4. For the text information on the web-page you can pick one of the 2 options:
-	1. Copy it any other bakery website.
+	1. Copy it any other bicicle store website.
 	2. Use the information in the annex on the last page of this document. (Google translated from Spanish, feel free to correct any grammar mistakes)
 5. For the products, you can browse her Instagram account for pictures or search any from unplash.com. For the title and prices just write anything.
 6. Use Google Fonts to obtain nice fonts.

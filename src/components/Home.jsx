@@ -26,10 +26,9 @@ function Home() {
           <div className="container flex justify-between bg-secondary-background text-text p-10 text-dark-text">
             <div className="w-1/2 text-left">
               <h3 className='font-title text-2xl'>KONTAKTA OSS</h3>
-              <p className="font-serif text-xl">info@santaluciacyklar.com</p>
+              <a className="font-serif text-xl" href="mailto:info@santaluciacyklar.com">info@santaluciacyklar.com</a>
               <p className="font-serif text-xl">Telefon: 040-92 48 88 (SMS fungerar ej)</p>
-              <p className="font-serif text-xl">Mariedalsvägen 46</p>
-              <p className="font-serif text-xl">217 45 Malmö</p>
+              <a className="font-serif text-xl" href='https://maps.app.goo.gl/qdR3KMPmqrYJAPcB9' target="_blank">Mariedalsvägen 46, 217 45 Malmö</a>              
               <p className="h-7"></p>   
               <div className="flex space-x-3">
                 <a href="https://www.facebook.com/SantaLuciaCyklar/?ref=aymt_homepage_panel&eid=ARADYi3YgcM3aaBQDoxfkUfk8NSFoTjafyLDFFznrpSYYnkIdEmCflcX9ebJMFG_n1bm8UgMhR83O4NM" target="_blank" rel="noopener noreferrer">
@@ -37,6 +36,9 @@ function Home() {
                 </a>
                 <a href="https://www.instagram.com/santaluciacyklar/" target="_blank" rel="noopener noreferrer">
                   <i className="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="mailto:info@santaluciacyklar.com" target="_blank" rel="noopener noreferrer">
+                    <i className="fa fa-envelope" aria-hiden="true"></i>
                 </a>
               </div>
             </div>  

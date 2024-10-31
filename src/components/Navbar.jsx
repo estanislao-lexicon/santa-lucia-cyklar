@@ -15,11 +15,12 @@ function Navbar() {
 
         {/* Third and Fourth Columns - Navigation Links */}
         <div className="col-span-2 flex justify-end space-x-6">
-          <Link to="/" className="text-gray-800">Home</Link>
-          <Link to="/cargo" className="text-gray-800">Cargo</Link>
-          <Link to="/secondhand" className="text-gray-800">SecondHand</Link>
-          <Link to="/services" className="text-gray-800">Services</Link>
-          <Link to="/renovation" className="text-gray-800">Renovation</Link>
+          <Link to="/" className="text-gray-800">HOME</Link>
+          <Link to="/cargo" className="text-gray-800">CARGO</Link>
+          <Link to="/restored" className="text-gray-800">RESTORED</Link>
+          <Link to="/service" className="text-gray-800">SERVICE</Link>
+          <Link to="/renovation" className="text-gray-800">RENOVATION</Link>
+          <Link to="/contact" className="text-gray-800">CONTACT</Link>
         </div>
       </div>                
     </div>

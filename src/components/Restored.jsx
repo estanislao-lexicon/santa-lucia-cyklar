@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import bikesData from '../data/secondHandBikes';
 
 
-function SecondHand() {
+function Restored() {
   const [bikes, setBikes] = useState(bikesData);
   const [sortOrder, setSortOrder] = useState(null); // null, 'asc', or 'desc'
   const [filterAvailable, setFilterAvailable] = useState(false);
@@ -17,16 +17,17 @@ function SecondHand() {
 
   return (
     <div>
-      <div className='container relative pt-28'>
-          <h3 className='text-2xl font-bold text-dark-text'>SECOND HAND BIKES</h3>
-          <p className='font-serif text-xl justify-center text-dark-text mt-5'>There are more bikes in stock, contact us for more info!</p>
-      </div>
-            
+      <div className='container bg-background flex items-center p-10 shadow-2xl z-50 mt-4 pt-20'>                
+        <div className='flex flex-col justify-center text-left'>
+          <h3 className='text-3xl font-bold text-dark-text'>RESTORED BIKES</h3>
+          <p className='font-serif text-2xl justify-center text-dark-text'>There are more bikes in stock, contact us for more info!</p>
+        </div>  
+      </div> 
       <div className='container'>
         <div className="sort-controls mt-10 mb-5 flex justify-end">          
           <select
             onChange={(e) => setSortOrder(e.target.value)}
-            className="p-1 border border-gray-100 rounded-md mr-4"            
+            className="p-1 rounded-md mr-4 bg-secondary-background"
           >
             <option value="">Sort by Price</option>
             <option value="asc">Low to High</option>
@@ -35,17 +36,20 @@ function SecondHand() {
 
           <select 
             onChange={() => setFilterAvailable(!filterAvailable)}
-            className="p-1 border border-gray-100 rounded-md"
+            className="p-1 rounded-md bg-secondary-background"
           >
             <option value="all">Show All</option>
             <option value="available">Filter Available Only</option>
           </select>
         </div>
 
-        <div className="grid grid-cols-4 gap-4 text-dark-text">
+        <div className="grid grid-cols-4 gap-4 mt-10 text-dark-text">
           {sortedBikes.map(bike => (
             <div key={bike.id} className="bike-card">
-              <img src={`${process.env.PUBLIC_URL}${bike.image}`} alt={bike.description} className="h-auto" />
+              <img 
+                src={`${process.env.PUBLIC_URL}${bike.image}`} 
+                alt={bike.description} 
+                className="h-72 object-cover rounded-md" />
               <h3><b>{bike.title}</b></h3>
               <p className='font-serif'>{bike.description}</p>
               <p className='font-serif'>Price: {bike.price}Kr</p>
@@ -58,4 +62,4 @@ function SecondHand() {
   );
 }
 
-export default SecondHand;
+export default Restored;
