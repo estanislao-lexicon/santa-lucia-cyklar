@@ -9,7 +9,7 @@ After some conversations via email, he has decided to start with a small website
 - [X] The Product page must be divided into Cargo bikes and Restored bikes.
 - [X] There must be at least 8 cargo bikes on the Cargo page.
 - [X] There must be at least 8 bicykles on the Restored bikes page.
-- [ ] Each product must have a picture, a title and a price.
+- [X] Each product must have a picture, a title and a price.
 - [X] The header must have a link for each of the 4 pages.
 - [X] The footer must have links to Instagram and Facebook.
 - [X] The footer also must have a link to contact her via email (redacted)

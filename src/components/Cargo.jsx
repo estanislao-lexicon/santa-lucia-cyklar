@@ -1,6 +1,19 @@
-import React from 'react';
+import React, { useState} from 'react';
+import bikesData from '../data/cargoBikes.js'
 
 function Cargo() {
+  const [bikes, setBikes] = useState(bikesData);
+  const [sortOrder, setSortOrder] = useState(null); // null, 'asc', or 'desc'
+  const [filterAvailable, setFilterAvailable] = useState(false);
+
+  const sortedBikes = [...bikes]
+  .sort((a, b) => {
+    if (sortOrder === 'asc') return a.price - b.price;
+    if (sortOrder === 'desc') return b.price - a.price;
+    return 0;
+  })
+  .filter(bike => (filterAvailable ? bike.available : true));
+
   return (
     <div>
       <div className='container bg-background flex items-center p-10 shadow-2xl z-50 mt-4 pt-20'>                
@@ -10,125 +23,41 @@ function Cargo() {
           All bikes are available for testing in our shop. <br /><b>All purchases are made in store.</b></p>
         </div>  
       </div>
-      
-      {/* BABBOE */}
-      <h3 className="text-3xl font-bold text-dark-text flex items-center justify-center mt-10">Babboe</h3>
-      <div className="container grid grid-cols-4 items-center p-4">        
-    
-        {/* First Column - Logo Image */}
-        <div className="col-span-1 flex justify-start">
-          <img src={`${process.env.PUBLIC_URL}/img/Babboe/Babboe-Big-E1.png`} alt="Santa Lucia Cyklar" className="h-auto" />
+      <div className='container'>
+        <div className="sort-controls mt-10 mb-5 flex justify-end">          
+          <select
+            onChange={(e) => setSortOrder(e.target.value)}
+            className="p-1 rounded-md mr-4 bg-secondary-background"
+          >
+            <option value="">Sort by Price</option>
+            <option value="asc">Low to High</option>
+            <option value="desc">High to Low</option>
+          </select>
+
+          <select 
+            onChange={() => setFilterAvailable(!filterAvailable)}
+            className="p-1 rounded-md bg-secondary-background"
+          >
+            <option value="all">Show All</option>
+            <option value="available">Filter Available Only</option>
+          </select>
         </div>
 
-        {/* Second Column */}
-        <div className="col-span-1 flex justify-start">
-          <img src={`${process.env.PUBLIC_URL}/img/Babboe/Babboe-Carve-Mountain.png`} alt="Santa Lucia Cyklar" className="h-auto" />
-        </div>
-
-        {/* Third Column - Navigation Links */}
-        <div className="col-span-1 flex justify-start">
-          <img src={`${process.env.PUBLIC_URL}/img/Babboe/Babboe-Curve-E1.png`} alt="Santa Lucia Cyklar" className="h-auto" />
-        </div>
-
-        {/* Fourth Column - Navigation Links */}
-        <div className="col-span-1 flex justify-start">
-          <img src={`${process.env.PUBLIC_URL}/img/Babboe/Babboe-Dog-E.png`} alt="Santa Lucia Cyklar" className="h-auto" />
-        </div>
-      </div>
-
-      {/* BULLIT */}
-      <h3 className="text-3xl font-bold text-dark-text flex items-center justify-center mt-10">Bullit</h3>
-      <div className="container grid grid-cols-4 items-center p-4">        
-    
-        {/* First Column - Logo Image */}
-        <div className="col-span-1 flex justify-start">
-          <img src={`${process.env.PUBLIC_URL}/img/Bullit/bullitt_2020_0124-original.jpg`} alt="Santa Lucia Cyklar" className="h-auto" />
-        </div>
-
-        {/* Second Column */}
-        <div className="col-span-1 flex justify-start">
-          <img src={`${process.env.PUBLIC_URL}/img/Bullit/bullitt_2020_0108_majortom2.jpeg`} alt="Santa Lucia Cyklar" className="h-auto" />
-        </div>
-
-        {/* Third Column - Navigation Links */}
-        <div className="col-span-1 flex justify-start">
-          <img src={`${process.env.PUBLIC_URL}/img/Bullit/bullitt_2020_0026.png`} alt="Santa Lucia Cyklar" className="h-auto" />
-        </div>
-
-        {/* Fourth Column - Navigation Links */}
-        <div className="col-span-1 flex justify-start">
-          <img src={`${process.env.PUBLIC_URL}/img/Bullit/moondog3_4_bullitt_2020_2000by1500__copy.png`} alt="Santa Lucia Cyklar" className="h-auto" />          
+        <div className="grid grid-cols-4 gap-4 mt-10 text-dark-text">
+          {sortedBikes.map(bike => (
+            <div key={bike.id} className="bike-card">
+              <img 
+                src={`${process.env.PUBLIC_URL}${bike.image}`} 
+                alt={bike.model} 
+                className="h-72 object-cover rounded-md" />
+              <h3><b>{bike.brand}</b></h3>
+              <p className='font-serif'>{bike.model}</p>
+              <p className='font-serif'>Price: {bike.price}Kr</p>
+              <p className='font-serif mb-20'>{bike.available ? 'In Stock' : 'Out of Stock'}</p>
+            </div>
+          ))}
         </div>
       </div>
-      <div className="container grid grid-cols-4 items-center p-4">        
-    
-        {/* First Column - Logo Image */}
-        <div className="col-span-1 flex justify-start">
-          <img src={`${process.env.PUBLIC_URL}/img/Bullit/bullitt_2020_0036.jpg`} alt="Santa Lucia Cyklar" className="h-auto" />
-        </div>
-
-        {/* Second Column */}
-        <div className="col-span-1 flex justify-start">
-          <img src={`${process.env.PUBLIC_URL}/img/Bullit/bullitt_2020_0018.jpg`} alt="Santa Lucia Cyklar" className="h-auto" />
-        </div>
-
-        {/* Third Column - Navigation Links */}
-        <div className="col-span-1 flex justify-start">
-          <img src={`${process.env.PUBLIC_URL}/img/Bullit/bullitt_2020_0026.jpg`} alt="Santa Lucia Cyklar" className="h-auto" />
-        </div>
-
-        {/* Fourth Column - Navigation Links */}
-        <div className="col-span-1 flex justify-start">
-          <img src={`${process.env.PUBLIC_URL}/img/Bullit/bullitt_2020_0033.jpg`} alt="Santa Lucia Cyklar" className="h-auto" />          
-        </div>
-      </div>
-
-      {/* CARGOBIKE */}
-      <h3 className="text-3xl font-bold text-dark-text flex items-center justify-center mt-10">Cargobike</h3>
-      <div className="container grid grid-cols-4 items-center p-4">        
-    
-        {/* First Column - Logo Image */}
-        <div className="col-span-1 flex justify-start">
-          <img src={`${process.env.PUBLIC_URL}/img/Cargobike/Cargobike-Classic2.png`} alt="Santa Lucia Cyklar" className="h-auto" />
-        </div>
-
-        {/* Second Column */}
-        <div className="col-span-1 flex justify-start">
-          <img src={`${process.env.PUBLIC_URL}/img/Cargobike/Cargobike-Delight2.png`} alt="Santa Lucia Cyklar" className="h-auto" />
-        </div>
-
-        {/* Third Column - Navigation Links */}
-        <div className="col-span-1 flex justify-start">
-          <img src={`${process.env.PUBLIC_URL}/img/Cargobike/Cargobike-Flex1.png`} alt="Santa Lucia Cyklar" className="h-auto" />
-        </div>
-
-        {/* Fourth Column - Navigation Links */}
-        <div className="col-span-1 flex justify-start">
-          <img src={`${process.env.PUBLIC_URL}/img/Cargobike/Cargobike-Long-Lite1.png`} alt="Santa Lucia Cyklar" className="h-auto" />
-        </div>
-      </div>
-
-      {/* MULI */}
-      <h3 className="text-3xl font-bold text-dark-text flex items-center justify-center mt-10">Muli</h3>
-      <div className="container grid grid-cols-4 items-center p-4">        
-    
-        {/* First Column - Logo Image */}
-        <div> </div>
-
-        {/* Second Column */}
-        <div className="col-span-1 flex justify-start">
-          <img src={`${process.env.PUBLIC_URL}/img/Muli/Motor.png`} alt="Santa Lucia Cyklar" className="h-auto" />
-        </div>
-
-        {/* Third Column - Navigation Links */}
-        <div className="col-span-1 flex justify-start">
-          <img src={`${process.env.PUBLIC_URL}/img/Muli/Muskel.png`} alt="Santa Lucia Cyklar" className="h-auto" />
-        </div>
-
-        {/* Fourth Column - Navigation Links */}
-        <div> </div>
-      </div>
-
     </div>
   );
 }

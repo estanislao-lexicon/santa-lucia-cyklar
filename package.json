@@ -1,8 +1,6 @@
-{
-  "name": "santa-lucia-cyklar",
+{ 
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://estanislao-lexicon.github.io/santa-lucia-cyklar",
+  "private": true, 
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/jest-dom": "^5.17.0",
