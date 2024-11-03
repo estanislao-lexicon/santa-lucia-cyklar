@@ -1,5 +1,7 @@
 import React, { useState} from 'react';
 import bikesData from '../data/cargoBikes.js'
+import CargoDetails from '../components/CargoDetails.jsx'
+import { Link } from 'react-router-dom';
 
 function Cargo() {
   const [bikes, setBikes] = useState(bikesData);
@@ -45,16 +47,16 @@ function Cargo() {
 
         <div className="grid grid-cols-4 gap-4 mt-10 text-dark-text">
           {sortedBikes.map(bike => (
-            <div key={bike.id} className="bike-card">
+            <Link to={`/cargo/${bike.id}`} key={bike.id} className='bike-card'>
               <img 
                 src={`${process.env.PUBLIC_URL}${bike.image}`} 
                 alt={bike.model} 
                 className="h-72 object-cover rounded-md" />
               <h3><b>{bike.brand}</b></h3>
               <p className='font-serif'>{bike.model}</p>
-              <p className='font-serif'>Price: {bike.price}Kr</p>
+              <p className='font-serif'>Price: {bike.price.toLocaleString()}Kr</p>
               <p className='font-serif mb-20'>{bike.available ? 'In Stock' : 'Out of Stock'}</p>
-            </div>
+            </Link>  
           ))}
         </div>
       </div>

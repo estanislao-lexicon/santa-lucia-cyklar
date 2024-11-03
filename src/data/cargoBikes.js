@@ -5,7 +5,7 @@ const bikesData = [
       "brand": "Babboe",
       "model": "Dog E",
       "description": "An electric three-wheel cargo bike, specially designed to bring your dog. The Babboe Dog E is a cargo bike of the highest quality. With its 36V 250W maintenance-free motor by GWA, and smart quality and safety solutions, the Babboe Dog E is a climate-smart alternative to the car. The new 450Wh, 13.8Ah strong battery gives you a range of up to 6 miles. The front of the box opens easily so that your dog can jump in by himself. Of course, there is also a folding bench with safety belts with room for 2 children. The lighting on the new model is connected to the bicycle battery and controlled via the display on the handlebars. Just like our other tricycles, Dog E has steering dampers for extra riding comfort and stability. Babboe Dog E is only delivered fully assembled, the only thing you need to do is put the pedals on.",      
-      "price": 38.000,
+      "price": 38000,
       "available": true
     },
     {
@@ -14,7 +14,7 @@ const bikesData = [
         "brand": "Babboe",
         "model": "Carve Mountain",
         "description": "With its 250W and 70Nm torque (max 80Nm peak) Yamaha motor that drives directly on the crankshaft and a 36V 400Wh battery, this is the strongest Babboe we have ever had. In addition, the Babboe Carve Mountain features the stepless shifting system from NuVinci, which offers riders a quiet, comfortable and incomparable riding experience. Adjusting the gear is as easy as turning the volume knob on a radio. The front and rear hydraulic disc brakes guarantee maximum stopping power when you need it. The tilt function has been further developed and the new Carve now has an even better tilt function. To load or unload, the support is folded down. However, the locking function is no longer available, so it is only possible to drive with the tilt function. Babboe Carve Mountain is only delivered fully assembled directly from our factory in Heerenveen Holland to your home. Note: parcel holder not included. However, it can be ordered as an accessory. Babboe Carve has 1 bench with room for 2 children. Extra bench available to order.",
-        "price": 67.000,
+        "price": 67000,
         "available": true
     },
     {
@@ -23,7 +23,7 @@ const bikesData = [
         "brand": "Babboe",
         "model": "Curve E - Sverige Edition",
         "description": "The Babboe Curve E SE cargo bike is a modern, three-wheel cargo bike with a strong 36V 250W high-quality electric motor. A tricycle that you want to be seen with! Babboe Curve E SE is a beautiful, smart, high-quality cargo bike, which is a climate-smart alternative to the car. The new 450Wh 13.8Ah strong battery gives you a range of up to 6 miles so you can get through the day. Especially for Sweden, we now offer our bestseller with Tektro hydraulic disc brakes front and rear. In addition, the Babboe Curve E SE has a quiet motor and strong battery as well as a nice LCD display with 8 setting options. Lighting is connected to the bicycle battery, is switched on via the display.",
-        "price": 42.500,
+        "price": 42500,
         "available": true
     },
     {
@@ -32,7 +32,7 @@ const bikesData = [
         "brand": "Babboe",
         "model": "Big E",
         "description": "Babboe Big E is the world's best-selling electric cargo bike with room for 4 children. With its 36V 250W maintenance-free and quiet motor from GWA, and smart quality and safety solutions, the Babboe Big E is a smart alternative to the car. The new 450Wh, 13.8Ah battery gives you a long range of up to 6 miles. The lighting is connected to the bicycle battery and controlled via the display on the handlebars. Just like our other three-wheelers, the Big E has steering dampers for extra riding comfort and stability. Babboe Big E is delivered fully assembled.",
-        "price": 35.000,
+        "price": 35000,
         "available": true
     },
     {
@@ -41,7 +41,7 @@ const bikesData = [
         "brand": "Cargobike",
         "model": "Delight",
         "description": "Cargobike DeLight is one of our most loved models and our absolute Premium bike. It's a state-of-the-art box bike with well-thought-out components and exquisite design. Quite simply a result of all the knowledge we have acquired as Sweden's oldest box bike supplier. With Delight, we have challenged ourselves and raised both form and function up another notch.",
-        "price": 44.495,
+        "price": 44495,
         "available": true
     },
     {
@@ -50,7 +50,7 @@ const bikesData = [
         "brand": "Cargobike",
         "model": "Flex",
         "description": "Cargobike Flex is a flexible cargo bike that, through its versatility, helps both families and businesses put together the everyday puzzle. In many cases, Cargobike Flex can replace car journeys. Kind to both your wallet and the environment!",
-        "price": 36.495,
+        "price": 36495,
         "available": true
     },
     {
@@ -59,7 +59,7 @@ const bikesData = [
         "brand": "Cargobike",
         "model": "Classic",
         "description": "The Classic Electric is a well-reputed and proven box bike. This is a real stalwart that has been developed and refined for over twelve years and has become Sweden's best-selling box bike of all time.",
-        "price": 34.495,
+        "price": 34495,
         "available": true
     },
     {
@@ -68,7 +68,7 @@ const bikesData = [
         "brand": "Cargobike",
         "model": "Long Lite",
         "description": "The Bullitt cargo bike has always been and continues to be the most flexible solution available. Built to last, fast, fun and strong, the Bullitt is more than just a machine and is loved by families, bicycle messengers, businesses and adventurers around the globe who use it daily for all their transport requirements.",
-        "price": 44.495,
+        "price": 44495,
         "available": true
     },
     {
@@ -77,7 +77,7 @@ const bikesData = [
         "brand": "Bullitt",
         "model": "Original",
         "description": "Fast and easy to maneuver, the Bullitt’s unique stiff, three dimensional frame construction and geometry ensure stability at speed and over a variety of surfaces. Its slim cargo platform functions well in navigating narrow bicycle lanes and plays nicely when sharing the road with other road users.",
-        "price": 25.546,
+        "price": 25546,
         "available": true
     },
     {
@@ -86,7 +86,7 @@ const bikesData = [
         "brand": "Bullitt",
         "model": "eBullitt 6100",
         "description": "Consistent, smooth and precise! The 6100 engine delivers a consistently smooth and reliable performance, ensuring a powerful ride capable of handling both light and heavy loads with ease. Its responsive and seamless shifting guarantees a comfortable journey, wherever your destination may be. Highly configurable with a variety of gear options to suit your needs, choose from internal and external gear systems with chain and Gates Carbon Drive.",
-        "price": 60.866,
+        "price": 60866,
         "available": true
     },
     {
@@ -95,7 +95,7 @@ const bikesData = [
         "brand": "Bullitt",
         "model": "eBullitt EP801",
         "description": "Designed for those who demand the best in their daily commute, delivery tasks, or weekend adventures, the EP801 is engineered to enhance every journey. Both massively powerful and beautifully engineered, the EP801 engine provides a fantastic and natural transfer of power, just when you, the rider require it. Outfitted with Shimano's cutting-edge drivetrain technology, including Autoshifting and Free Shifting, the EP801 ensures your focus remains on the road ahead. Whether navigating city streets or exploring new trails, this bike is built to adapt to your needs.",
-        "price": 78.496,
+        "price": 78496,
         "available": true
     },
     {
@@ -104,7 +104,7 @@ const bikesData = [
         "brand": "Bullitt",
         "model": "eBullitt EP8",
         "description": "Powerful, lively, and quiet! Both massively powerful and beautifully engineered, the EP8 engine provides a fantastic and naturel transfer of power, just when you, the rider require it. Highly configurable with a variety of gear options to suit your needs, choose from internal and external gear systems with chain and Gates Carbon Drive.",
-        "price": 76.290,
+        "price": 76290,
         "available": true
     },
     {
@@ -113,7 +113,7 @@ const bikesData = [
         "brand": "Bullitt",
         "model": "Bullitt X",
         "description": "Same component/gear options as the Original Bullitt for easy compatibility. Subtle branding and reduced graphics to allow businesses more room to promote and market.",
-        "price": 34.371,
+        "price": 34371,
         "available": true
     },
     {
@@ -122,7 +122,7 @@ const bikesData = [
         "brand": "Bullitt",
         "model": "eBullitt X",
         "description": "eBullitt X is our extra long, extra strong version of the much loved, much lauded Original eBullitt. Even more flexible, even more capable and designed to partner with the largest volume storage solutions being made. eBullitt X is 220 mm longer than the Original eBullitt and has been tested and rated to the same, industry leading standards as our stalwart staple. Bigger volume means more room for packages and for equipment. Bigger volume means an increase in transport potential for the businesses utilizing eBullitt X.",
-        "price": 83.721,
+        "price": 83721,
         "available": true
     },
     {
@@ -131,7 +131,7 @@ const bikesData = [
         "brand": "Muli",
         "model": "Motor",
         "description": "The electric muli, free ticket for full loads and long journeys home. Compact, maneuverable and strong - made for real life, for thick packages and narrow bike basements.",
-        "price": 51.799,
+        "price": 51799,
         "available": true
     },
     {
@@ -140,7 +140,7 @@ const bikesData = [
         "brand": "Muli",
         "model": "Muskel",
         "description": "Convertible, compact and fast - the muli muscle is the perfect companion bike for everyday trips in the urban jungle. It combines the advantages of a cargo bike with those of a compact bike.",
-        "price": 33.565,
+        "price": 33565,
         "available": true
     },
     {
@@ -149,7 +149,7 @@ const bikesData = [
         "brand": "Seaside",
         "model": "Signature",
         "description": "Seaside Bike Signature is a very well thought out family bike where all design and development has had the family in focus. Imagine a bicycle where everything is automatic such as gears and lights, stored in one square meter, very stable & safe and comes in two beautiful color combinations. Our box bike is built from components from well-known manufacturers, carefully selected with a focus on safety, function and performance.",
-        "price": 52.995,
+        "price": 52995,
         "available": true
     },
     {
@@ -158,7 +158,7 @@ const bikesData = [
         "brand": "Seaside",
         "model": "Signature Special",
         "description": "The same bike as the Signature fixed with a different color on the box and a front light - right now at the launch price!",
-        "price": 49.995,
+        "price": 49995,
         "available": true
     }
 ];

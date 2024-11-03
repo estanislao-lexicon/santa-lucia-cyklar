@@ -11,6 +11,7 @@ import NoPage from './components/NoPage';
 import Contact from './components/Contact';
 import PriceList from './components/PriceList';
 import About from './components/About';
+import CargoDetails from './components/CargoDetails';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/santa-lucia-cyklar" element={<Home />} />
             <Route path="/cargo" element={<Cargo />} />
+            <Route path="/cargo/:id" element={<CargoDetails />} />
             <Route path="/restored" element={<Restored />} />
             <Route path="/service" element={<Service />} />
             <Route path="/service/priceList" element={<PriceList />} />

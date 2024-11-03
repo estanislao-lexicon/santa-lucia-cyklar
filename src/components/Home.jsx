@@ -47,11 +47,7 @@ function Home() {
               <h3 className='font-title text-2xl'>BUISNESS HOURS</h3>
               <p className="font-serif text-xl justify-center"> Monday to Thursday 9:00 - 17:00</p>            
               <p className="font-serif text-xl justify-center"> Friday 10:00 - 16:00</p>
-              <p className="font-serif text-xl justify-center"> Saturday and Sunday Closed</p>
-              <p className="h-7"></p>              
-              <form id="contact-form" className="flex flex-col max-w-lg mx-auto">              
-                <input type="email" name="user_email" placeholder="Subscribe to our Newsletter" required className="p2 border rounded mb-4 text-sm placeholder-gray-500" />
-              </form>
+              <p className="font-serif text-xl justify-center"> Saturday and Sunday Closed</p>              
             </div>
           </div>        
         </footer>        
