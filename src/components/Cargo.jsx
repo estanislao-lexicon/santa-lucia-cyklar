@@ -18,8 +18,8 @@ function Cargo() {
     <div>
       <div className='container bg-background flex items-center p-10 shadow-2xl z-50 mt-4 pt-20'>                
         <div className='flex flex-col justify-center text-left'>
-          <h3 className='text-3xl font-bold text-dark-text'>CARGO BIKES</h3>
-          <p className='font-serif text-2xl justify-center text-dark-text'>We are authorised dealers of Cargobike, Babboe and Muli in Malmö.<br />
+          <h3 className='text-3xl font-title text-dark-text'>CARGO BIKES</h3>
+          <p className='font-serif text-xl  justify-center text-dark-text mt-5'>We are authorised dealers of Cargobike, Babboe and Muli in Malmö.<br />
           All bikes are available for testing in our shop. <br /><b>All purchases are made in store.</b></p>
         </div>  
       </div>

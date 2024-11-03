@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (    
@@ -25,7 +26,7 @@ function Home() {
         <footer>
           <div className="container flex justify-between bg-secondary-background text-text p-10 text-dark-text">
             <div className="w-1/2 text-left">
-              <h3 className='font-title text-2xl'>KONTAKTA OSS</h3>
+              <h3 className='font-title text-2xl'>CONTACT US</h3>
               <a className="font-serif text-xl" href="mailto:info@santaluciacyklar.com">info@santaluciacyklar.com</a>
               <p className="font-serif text-xl">Telefon: 040-92 48 88 (SMS fungerar ej)</p>
               <a className="font-serif text-xl" href='https://maps.app.goo.gl/qdR3KMPmqrYJAPcB9' target="_blank">Mariedalsvägen 46, 217 45 Malmö</a>              
@@ -42,12 +43,15 @@ function Home() {
                 </a>
               </div>
             </div>  
-            <div className="w-1/2 text-right">    
-              <p className="h-8"></p>    
-              <p className="font-serif text-xl">Registrerad för F-skatt </p>
-              <p className="font-serif text-xl">Org Nr: 820808-xxxx </p>
-              <p className="font-serif text-xl">Lämnar ut fullständigt Org</p> 
-              <p className="font-serif text-xl">Nr till företagskunder.</p>
+            <div className="w-1/2 text-right">                  
+              <h3 className='font-title text-2xl'>BUISNESS HOURS</h3>
+              <p className="font-serif text-xl justify-center"> Monday to Thursday 9:00 - 17:00</p>            
+              <p className="font-serif text-xl justify-center"> Friday 10:00 - 16:00</p>
+              <p className="font-serif text-xl justify-center"> Saturday and Sunday Closed</p>
+              <p className="h-7"></p>              
+              <form id="contact-form" className="flex flex-col max-w-lg mx-auto">              
+                <input type="email" name="user_email" placeholder="Subscribe to our Newsletter" required className="p2 border rounded mb-4 text-sm placeholder-gray-500" />
+              </form>
             </div>
           </div>        
         </footer>        

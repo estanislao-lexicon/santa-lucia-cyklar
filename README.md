@@ -19,7 +19,7 @@ After some conversations via email, he has decided to start with a small website
 ### Optional tasks
 
 These are extra task and is not required to complete the project.
-- [X] The client wants a contact form that sends an email (redacted).
+- [X] The client wants a contact form that sends an email (redacted). -> handled with [EmailJS](https://www.emailjs.com/)
 - [ ] The client wants her users subscribing to a email list, so is requesting to create a section in the Home page or inside the footer.
 
 

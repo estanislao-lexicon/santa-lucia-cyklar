@@ -4,26 +4,26 @@ function PriceList() {
             <main className="flex-grow">
                 <div className='container bg-background flex items-center p-10 shadow-2xl z-50 mt-4 pt-20 text-dark-text'>                
                     <div className='flex flex-col justify-center text-left'>
-                        <h3 className='text-3xl font-bold'>PRICE LIST</h3>
+                        <h3 className='text-3xl font-title'>PRICE LIST</h3>
                         <p>(All prices incl. VAT)</p>
                         <div className="grid grid-cols-3 gap-4 mt-5 text-dark-text">
                             {/* Box 1 */}
                             <div className="bg-white p-6 rounded-md shadow-lg">
-                                <h4 className="font-bold text-lg mb-2 text-center">CARGO BIKE SERVICE</h4>
-                                <ul className="font-serif">
+                                <h4 className="font-title text-xl mb-2 text-center"><b>CARGO BIKE SERVICE</b></h4>
+                                <ul className="font-serif text-lg">
                                     <li>- Safety test</li>
                                     <li>- Simple cleaning + lubrication hood</li>
                                     <li>- Adjustment of Brakes</li>
                                     <li>- Adjustment of Gears</li>
                                     <li>- Control of the electrical system</li>
                                 </ul>
-                                <p className="mt-2 font-serif"><b>Price:</b> 1750Kr (+ any spare parts)</p>
+                                <p className="mt-2 font-title"><b>Price:</b> 1750Kr (+ any spare parts)</p>
                             </div>
 
                             {/* Box 2 */}
                             <div className="bg-white p-6 rounded-md shadow-lg">
-                                <h4 className="font-bold text-center text-lg mb-2">FULL SERVICE</h4>
-                                <ul className="font-serif">
+                                <h4 className="font-bold text-center text-xl mb-2">FULL SERVICE</h4>
+                                <ul className="font-serif text-md">
                                     <li>- Safety test</li>
                                     <li>- Paint over damage with metallic paint</li>
                                     <li>- Proper cleaning + lubrication chapel</li>
@@ -34,13 +34,13 @@ function PriceList() {
                                     <li>- Switches</li>
                                     <li>- Electrical system</li>
                                 </ul>
-                                <p className="mt-2 font-serif"><b>Price:</b> 2500Kr (incl. VAT + any spare parts)</p>
+                                <p className="mt-2 font-title"><b>Price:</b> 2500Kr (incl. VAT + any spare parts)</p>
                             </div>
 
                             {/* Box 3 */}
                             <div className="bg-white p-6 rounded-md shadow-lg">
-                                <h4 className="font-bold text-center text-lg mb-2">BICYCLE/ELECTRIC BIKE SERVICE</h4>
-                                <ul className="font-serif">
+                                <h4 className="font-bold text-center text-xl mb-2">BICYCLE/ELECTRIC BIKE SERVICE</h4>
+                                <ul className="font-serif text-lg">
                                     <li>- Safety test</li>
                                     <li>- Cleaning</li>
                                     <li>- Lubrication</li>
@@ -48,12 +48,12 @@ function PriceList() {
                                     <li>- Switches</li>
                                     <li>- + What is needed</li>
                                 </ul>
-                                <p className="mt-2 font-serif"><b>Price:</b> 720Kr/h (incl. VAT + any spare parts)</p>
+                                <p className="mt-2 font-title"><b>Price:</b> 720Kr/h (incl. VAT + any spare parts)</p>
                             </div>
                             
                             {/* Wide Box */}
                             <div className="bg-white p-6 rounded-lg shadow-lg text-center col-span-3">
-                                <h4 className="font-bold text-lg mb-2">FIXED PRICES</h4>
+                                <h4 className="font-bold text-xl mb-2">FIXED PRICES</h4>
                                 <ul className="grid grid-cols-1 gap-4 font-serif">
                                     <li className="grid grid-cols-2">
                                         <span className="text-left">Pickup of cargo bike/bike</span>

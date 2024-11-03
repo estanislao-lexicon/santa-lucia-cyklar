@@ -7,7 +7,9 @@ function Navbar() {
       <div className=" container grid grid-cols-4 items-center p-4">
         {/* First Column - Logo Image */}
         <div className="col-span-1 flex justify-start">
-          <img src={`${process.env.PUBLIC_URL}/img/Black_Text_280x@2x.png`} alt="Santa Lucia Cyklar" className="h-12" />
+          <Link to="/about">
+            <img src={`${process.env.PUBLIC_URL}/img/Black_Text_280x@2x.png`} alt="Santa Lucia Cyklar" className="h-12" />
+          </Link>
         </div>
 
         {/* Second Column - Spacer */}
