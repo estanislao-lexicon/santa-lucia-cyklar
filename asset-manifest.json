@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/santa-lucia-cyklar/static/css/main.d88f838b.css",
-    "main.js": "/santa-lucia-cyklar/static/js/main.cf085382.js",
+    "main.css": "/santa-lucia-cyklar/static/css/main.218cc476.css",
+    "main.js": "/santa-lucia-cyklar/static/js/main.be850a86.js",
     "static/js/453.17e5f5e5.chunk.js": "/santa-lucia-cyklar/static/js/453.17e5f5e5.chunk.js",
     "index.html": "/santa-lucia-cyklar/index.html",
-    "main.d88f838b.css.map": "/santa-lucia-cyklar/static/css/main.d88f838b.css.map",
-    "main.cf085382.js.map": "/santa-lucia-cyklar/static/js/main.cf085382.js.map",
+    "main.218cc476.css.map": "/santa-lucia-cyklar/static/css/main.218cc476.css.map",
+    "main.be850a86.js.map": "/santa-lucia-cyklar/static/js/main.be850a86.js.map",
     "453.17e5f5e5.chunk.js.map": "/santa-lucia-cyklar/static/js/453.17e5f5e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d88f838b.css",
-    "static/js/main.cf085382.js"
+    "static/css/main.218cc476.css",
+    "static/js/main.be850a86.js"
   ]
 }
