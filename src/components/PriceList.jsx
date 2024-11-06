@@ -2,11 +2,11 @@ function PriceList() {
     return (
         <div className="min-h-screen flex flex-col">
             <main className="flex-grow">
-                <div className='container bg-background flex items-center p-10 shadow-2xl z-50 mt-4 pt-20 text-dark-text'>                
+                <div className='container bg-background flex items-center p-10 shadow-2xl z-50 mt-4 pt-20 text-dark-text'>
                     <div className='flex flex-col justify-center text-left'>
-                        <h3 className='text-3xl font-title'>PRICE LIST</h3>
-                        <p>(All prices incl. VAT)</p>
-                        <div className="grid grid-cols-3 gap-4 mt-5 text-dark-text">
+                        <h3 className='text-3xl sm:text-4xl font-title'>PRICE LIST</h3>
+                        <p className='text-lg sm:text-xl'>(All prices incl. VAT)</p>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-5 text-dark-text">
                             {/* Box 1 */}
                             <div className="bg-white p-6 rounded-md shadow-lg">
                                 <h4 className="font-title text-xl mb-2 text-center"><b>CARGO BIKE SERVICE</b></h4>
@@ -52,7 +52,7 @@ function PriceList() {
                             </div>
                             
                             {/* Wide Box */}
-                            <div className="bg-white p-6 rounded-lg shadow-lg text-center col-span-3">
+                            <div className="bg-white p-6 rounded-lg shadow-lg text-center col-span-1 sm:col-span-2 lg:col-span-3">
                                 <h4 className="font-bold text-xl mb-2">FIXED PRICES</h4>
                                 <ul className="grid grid-cols-1 gap-4 font-serif">
                                     <li className="grid grid-cols-2">
@@ -147,10 +147,13 @@ function PriceList() {
                             </div>                    
                         </div>
                     </div>  
-                </div>    
+                </div>
             </main>
-            <footer className="p-20"></footer>
-        </div> 
+
+            <footer className="bg-dark-text text-white py-6 mt-10 text-center">
+                <p>&copy; 2024 All Rights Reserved</p>
+            </footer>
+        </div>
     );
 }
 

@@ -19,29 +19,29 @@ function ContactForm() {
   return (    
     <div className="min-h-screen flex flex-col">
       <main className="flex-grow">              
-        <div className='container bg-background p-16 shadow-2xl z-50 mt-4 pt-20 text-dark-text'>
-          <h3 className="text-3xl font-title ">BUSINESS HOURS</h3>
-            <p className="font-serif text-xl justify-center mt-5"> Monday to Thursday 9:00 - 17:00</p>            
-            <p className="font-serif text-xl justify-center"> Friday 10:00 - 16:00</p>
-            <p className="font-serif text-xl justify-center"> Saturday and Sunday Closed</p>
+        <div className='container bg-background p-8 sm:p-16 shadow-2xl z-50 mt-4 pt-10 text-dark-text'>
+          <h3 className="text-2xl sm:text-3xl font-title">BUSINESS HOURS</h3>
+            <p className="font-serif text-base sm:text-xl justify-center mt-5"> Monday to Thursday 9:00 - 17:00</p>            
+            <p className="font-serif text-base sm:text-xl justify-center"> Friday 10:00 - 16:00</p>
+            <p className="font-serif text-base sm:text-xl justify-center"> Saturday and Sunday Closed</p>
             <div className="contact-form mt-4 pt-5">
               <form ref={form} id="contact-form" onSubmit={handleSubmit} className="flex flex-col max-w-lg mx-auto">
                 
                 <input type="hidden" name="contact_number" value="697483" />
 
-                <label>Name</label>
-                <input type="name" name="user_name" required className="p-2 border rounded mb-4" />
+                <label className="text-sm sm:text-base">Name</label>
+                <input type="name" name="user_name" required className="p-2 border rounded mb-4 w-full" />
 
-                <label>Email</label>
-                <input type="email" name="user_email" required className="p-2 border rounded mb-4" />              
+                <label className="text-sm sm:text-base">Email</label>
+                <input type="email" name="user_email" required className="p-2 border rounded mb-4 w-full" />              
 
-                <label>Mobile number</label>
-                <input type="mobile" name="user_mobile" required className="p-2 border rounded mb-4" />
+                <label className="text-sm sm:text-base">Mobile number</label>
+                <input type="mobile" name="user_mobile" required className="p-2 border rounded mb-4 w-full" />
                 
-                <label>Message</label>
-                <textarea name="message" required className="p-2 border rounded mb-4 h-48"></textarea>
+                <label className="text-sm sm:text-base">Message</label>
+                <textarea name="message" required className="p-2 border rounded mb-4 h-48 w-full"></textarea>
 
-                <input type="submit" value="Send" className="border bg-white text-dark-text p-2 rounded cursor-pointer" />
+                <input type="submit" value="Send" className="border bg-white text-dark-text p-2 rounded cursor-pointer mt-4" />
               </form>
               {status && <p className="text-center mt-4">{status}</p>}
             </div>          
