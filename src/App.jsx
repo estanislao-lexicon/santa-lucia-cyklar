@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { supabase } from './utils/supabase'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Cargo from './components/Cargo';
@@ -15,7 +16,7 @@ import CargoDetails from './components/CargoDetails';
 
 
 function App() {
-  return (
+  return (    
     <BrowserRouter>
       <Navbar />
         <Routes>
@@ -31,8 +32,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
             <Route path="*" element={<NoPage />} />
-
-        </Routes>       
+        </Routes>        
       <Footer />
     </BrowserRouter>
   );

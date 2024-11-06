@@ -6,7 +6,11 @@ function CargoDetails() {
     const { id } = useParams();
     const bike = bikeData.find(b => b.id === parseInt(id));
 
-    if(!bike) return <p>Bike not found</p>;
+    if(!bike) return <div className="container mx-auto p-10">
+                        <div className="className='mt-4 pt-20 text-dark-text">
+                            <h2 className="text-3xl font-bold">Bike not found</h2>
+                        </div>
+                    </div>;
 
   return (
     <div className="container mx-auto p-10">
