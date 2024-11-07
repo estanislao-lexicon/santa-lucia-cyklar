@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { supabase } from '../utils/supabase';
+import ScrollToTop from './ScrollToTop';
 
 function Restored() {
   const [bikes, setBikes] = useState([]);
@@ -41,6 +42,7 @@ function Restored() {
 
   return (
     <div>
+      <ScrollToTop />
       <div className="container bg-background flex items-center p-10 shadow-2xl z-50 mt-4 pt-20">
         <div className="flex flex-col justify-center text-left">
           <h3 className="text-3xl font-title text-dark-text">RESTORED BIKES</h3>
@@ -97,9 +99,7 @@ function Restored() {
                   <h3 className="font-bold text-lg">{bike.brand} - {bike.model}</h3>
                   <p className="font-serif text-sm">{bike.description}</p>
                   <p className="font-serif text-lg mt-2">Price: {bike.price} Kr</p>
-                  <p className={`font-serif text-sm mt-2 ${bike.available ? 'text-green-500' : 'text-red-500'}`}>
-                    {bike.available ? 'In Stock' : 'Out of Stock'}
-                  </p>
+                  <p className='font-serif text-sm sm:text-base mb-20'>{bike.available ? 'In Stock' : 'Out of Stock'}</p>                  
                 </div>
               ))}
             </div>

@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import ScrollToTop from './ScrollToTop';
 import emailjs from '@emailjs/browser';
 
 function ContactForm() {
@@ -18,6 +19,7 @@ function ContactForm() {
 
   return (    
     <div className="min-h-screen flex flex-col">
+      <ScrollToTop />
       <main className="flex-grow">              
         <div className='container bg-background p-8 sm:p-16 shadow-2xl z-50 mt-4 pt-10 text-dark-text'>
           <h3 className="text-2xl sm:text-3xl font-title">BUSINESS HOURS</h3>

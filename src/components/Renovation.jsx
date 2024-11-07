@@ -1,8 +1,10 @@
 import React from 'react';
+import ScrollToTop from './ScrollToTop';
 
 function Renovation() {
   return (
     <div className="min-h-screen flex flex-col">
+      <ScrollToTop />
       <main className="flex-grow">
         <div className='container bg-background flex items-center p-10 shadow-2xl z-50 mt-4 pt-20'>
           <div className='flex flex-col lg:flex-row w-full'>
