@@ -4,7 +4,7 @@ After some conversations via email, he has decided to start with a small website
 
 ### Specifications requested by the client
 
-- [ ] The site must work on phones and also computers.
+- [X] The site must work on phones and also computers.
 - [X] Must have min. 4 pages: Home page, About page, Products page, Contact page.
 - [X] The Product page must be divided into Cargo bikes and Restored bikes.
 - [X] There must be at least 8 cargo bikes on the Cargo page.
@@ -20,7 +20,7 @@ After some conversations via email, he has decided to start with a small website
 
 These are extra task and is not required to complete the project.
 - [X] The client wants a contact form that sends an email (redacted). -> handled with [EmailJS](https://www.emailjs.com/)
-- [ ] The client wants her users subscribing to a email list, so is requesting to create a section in the Home page or inside the footer.
+- [X] The client wants her users subscribing to a email list, so is requesting to create a section in the Home page or inside the footer.
 
 
 ### Hints for the project
