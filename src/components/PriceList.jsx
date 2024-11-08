@@ -153,8 +153,8 @@ function PriceList() {
 				</div>
 			</main>
 
-			<footer className="bg-dark-text text-white py-6 mt-10 text-center">
-				<p>&copy; 2024 All Rights Reserved</p>
+			<footer className="text-white py-6 mt-10 text-center">
+				
 			</footer>
 		</div>
 );
