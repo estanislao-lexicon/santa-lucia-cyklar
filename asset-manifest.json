@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/santa-lucia-cyklar/static/css/main.7251ff33.css",
-    "main.js": "/santa-lucia-cyklar/static/js/main.d9adae09.js",
+    "main.css": "/santa-lucia-cyklar/static/css/main.43380507.css",
+    "main.js": "/santa-lucia-cyklar/static/js/main.396b520f.js",
     "static/js/952.91fb0adc.chunk.js": "/santa-lucia-cyklar/static/js/952.91fb0adc.chunk.js",
     "static/js/453.17e5f5e5.chunk.js": "/santa-lucia-cyklar/static/js/453.17e5f5e5.chunk.js",
     "index.html": "/santa-lucia-cyklar/index.html",
-    "main.7251ff33.css.map": "/santa-lucia-cyklar/static/css/main.7251ff33.css.map",
-    "main.d9adae09.js.map": "/santa-lucia-cyklar/static/js/main.d9adae09.js.map",
+    "main.43380507.css.map": "/santa-lucia-cyklar/static/css/main.43380507.css.map",
+    "main.396b520f.js.map": "/santa-lucia-cyklar/static/js/main.396b520f.js.map",
     "952.91fb0adc.chunk.js.map": "/santa-lucia-cyklar/static/js/952.91fb0adc.chunk.js.map",
     "453.17e5f5e5.chunk.js.map": "/santa-lucia-cyklar/static/js/453.17e5f5e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7251ff33.css",
-    "static/js/main.d9adae09.js"
+    "static/css/main.43380507.css",
+    "static/js/main.396b520f.js"
   ]
 }
